@@ -1,16 +1,34 @@
+:root {
+	--content-width: 75vw;
+	--content-max-width: 500px;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-color: #000;
+}
+
+h1 {
+	font-size: 2.2rem;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	margin: 0;
+	font-size: 0.8rem;
+	color: rgba(0, 0, 0, 0.7);
+	line-height: 1.6;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
